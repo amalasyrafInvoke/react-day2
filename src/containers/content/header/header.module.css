@@ -1,0 +1,32 @@
+header {
+  background-color: #172a7a;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+header > * {
+  margin: 0 2rem;
+}
+
+form input {
+  height: 35px;
+  width: 500px;
+  background-color: #172a7a;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.headerInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.headerInfo > * {
+  margin: 0 0.5rem;
+}

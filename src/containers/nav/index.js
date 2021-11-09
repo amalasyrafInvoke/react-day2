@@ -20,18 +20,15 @@ export default class Nav extends Component {
       <nav id='navbar'>
         <img src={logo} alt='Logo' height={70} width={70} />
         <MenuSection>
-          <MenuList title='Dashboard' icon={icon10} />
-          <MenuList title='Conversations' notification={16} icon={icon2} />
-          <MenuList title='Calendar' icon={icon3} />
+          <MenuList title='New Releases' icon={icon10} />
+          <MenuList title='Most Popular' icon={icon2} />
+          <MenuList title='Recommended' icon={icon3} />
+          <MenuList title='Top Chart' icon={icon3} />
         </MenuSection>
-        <MenuSection sectionTitle='Recruitment'>
-          <MenuList title='Jobs' icon={icon4} />
-          <MenuList title='Candidates' icon={icon10} />
-          <MenuList title='Career Site' icon={icon6} />
-        </MenuSection>
-        <MenuSection sectionTitle='Company'>
-          <MenuList title='Team' icon={icon7} />
-          <MenuList title='Settings' icon={icon8} />
+        <MenuSection sectionTitle='My Collection'>
+          <MenuList title='Bookmark' icon={icon4} />
+          <MenuList title='History' icon={icon10} />
+          <MenuList title='Subscriptions' icon={icon6} />
         </MenuSection>
       </nav>
     );

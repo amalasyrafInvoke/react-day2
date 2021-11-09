@@ -8,7 +8,7 @@ export default class MenuSection extends Component {
   render() {
     return (
       <div>
-        <h3 style={{color: 'grey'}}>
+        <h3 style={{color: 'white'}}>
           {this.props.sectionTitle}
         </h3>
         {this.props.children}
