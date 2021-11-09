@@ -1,0 +1,11 @@
+#navbar {
+  width: 25vw;
+  background-color: black;
+  color: white;
+  height: 100%;
+  padding: 1rem 1.5rem;
+}
+
+#navbar ul {
+  list-style: none;
+}
