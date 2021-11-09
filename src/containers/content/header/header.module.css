@@ -1,5 +1,5 @@
 header {
-  background-color: #172a7a;
+  background-color: #1E5F74;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,9 +15,13 @@ header > * {
 form input {
   height: 35px;
   width: 500px;
-  background-color: #172a7a;
+  background-color: #1E5F74;
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid white;
+}
+
+form input::placeholder {
+  color: white;
 }
 
 .headerInfo {
@@ -34,7 +38,7 @@ form input {
 
 @media screen and (min-width: 992px) {
   header {
-    width: 85vw;
+    width: 80vw;
 
   }
 }

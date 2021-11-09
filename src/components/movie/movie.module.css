@@ -1,6 +1,23 @@
 .movieCard {
-  width: calc(100% / 4.5);
-  height: 450px;
+  width: calc(100% / 2.5);
+  height: 500px;
   margin: 0.5rem 1rem;
   border-radius: 5px;
+  color: floralwhite;
+}
+
+.movieCard div img {
+  opacity: 0.85;
+  border-radius: 5px;
+}
+
+.movieCard > * {
+  margin: 0.5rem 0;
+}
+
+
+@media screen and (min-width: 992px) {
+  .movieCard {
+    width: calc(100% / 4.5);
+  }
 }

@@ -14,7 +14,7 @@ export default class Movie extends Component {
         <h3>{this.props.name}</h3>
         <h5>Recommended By: {this.props.by}</h5>
         <h5>{this.props.release_date}</h5>
-        {this.props.tagline && <h5>{this.props.tagline}</h5>}
+        {this.props.tagline && <h5>"{this.props.tagline}"</h5>}
       </div>
     );
   }

@@ -1,6 +1,6 @@
 #navbar {
   width: 25vw;
-  background-color: #272f89;
+  background-color: #1D2D50;
   color: white;
   height: 100%;
   padding: 1rem 1.5rem;
@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 992px) {
   #navbar {
-    width: 15vw;
+    width: 20vw;
 
   }
 }

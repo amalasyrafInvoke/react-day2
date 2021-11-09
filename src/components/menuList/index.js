@@ -10,7 +10,7 @@ export default class MenuList extends Component {
   }
   render() {
     return (
-      <div className={classes.menu_holder}>
+      <div className={`${classes.menu_holder} ${this.props.active ? classes.active : null}`}>
         <img src={this.props.icon} alt="Icon" />
         <p>{this.props.title}</p>
         {this.props.notification && (<caption>{this.props.notification}</caption>)}
