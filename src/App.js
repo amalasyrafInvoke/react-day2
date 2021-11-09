@@ -1,14 +1,12 @@
 import Nav from './containers/nav';
+import Content from './containers/content';
 import './app.css';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <div id='container'>
-
-      </div>
-      
+      <Content />
     </div>
   );
 }
