@@ -1,0 +1,92 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "name": "American Pie", 
+      "recommended_by": "Amir",
+      "release_date": 1999,
+      "tagline": "There's something about your first piece.",
+      "url": "/assets/movies/american_pie.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Blackpink: The Movie", 
+      "recommended_by": "Zhafri",
+      "release_date": 2021,
+      "tagline": null,
+      "url": "/assets/movies/blackpink.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Captain America: The Winter Soldier", 
+      "recommended_by": "Chee Hoe",
+      "release_date": 2014,
+      "tagline": null,
+      "url": "/assets/movies/capt_america_winter.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Deadpool", 
+      "recommended_by": "Arjun",
+      "release_date": 2016,
+      "tagline": "Witness the beginning of a happy ending",
+      "url": "/assets/movies/deadpool.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Fight Club", 
+      "recommended_by": "Zahin",
+      "release_date": 1999,
+      "tagline": "Works great on blood stains.",
+      "url": "/assets/movies/fight_club.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "The Gentlemen", 
+      "recommended_by": "Isaac",
+      "release_date": 2020,
+      "tagline": "Criminal. Class.",
+      "url": "/assets/movies/gentlemen.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Get Out", 
+      "recommended_by": "Amirul",
+      "release_date": 2017,
+      "tagline": null,
+      "url": "/assets/movies/get_out.jpeg"
+    },
+    {
+      "id": 8,
+      "name": "The Lost World: Jurassic Park", 
+      "recommended_by": "Azizi",
+      "release_date": 1997,
+      "tagline": null,
+      "url": "/assets/movies/jurassic_park.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Shrek 2", 
+      "recommended_by": "Hafiy",
+      "release_date": 2004,
+      "tagline": null,
+      "url": "/assets/movies/shrek_two.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Spirited Away", 
+      "recommended_by": "Fikri",
+      "release_date": 2002,
+      "tagline": null,
+      "url": "/assets/movies/spirited_away.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "The Prestige", 
+      "recommended_by": "Arwin",
+      "release_date": 2006,
+      "tagline": "Are you watching closely?",
+      "url": "/assets/movies/the_prestige.jpg"
+    }
+  ]
+}

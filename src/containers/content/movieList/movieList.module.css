@@ -1,0 +1,5 @@
+.movieListContainer {
+  background-color: #4145a0;
+  height: calc(100vh - 70px);
+  overflow: scroll;
+}

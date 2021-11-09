@@ -1,0 +1,12 @@
+.contentContainer {
+  display: flex;
+  flex-direction:column; 
+  width: 75vw;
+}
+
+@media screen and (min-width: 992px) {
+  .contentContainer{
+    width: 85vw;
+
+  }
+}

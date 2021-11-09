@@ -5,6 +5,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  width: 75vw;
 }
 
 header > * {
@@ -29,4 +30,11 @@ form input {
 
 .headerInfo > * {
   margin: 0 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    width: 85vw;
+
+  }
 }
